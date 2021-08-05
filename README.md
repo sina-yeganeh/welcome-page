@@ -1,2 +1,2 @@
 # welcome-page
-A simple and Persian welcome page built with HTML &amp; CSS
+![screenshot demo](./images/screenshot.jpg)

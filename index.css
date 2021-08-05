@@ -1,4 +1,10 @@
+@font-face {
+    font-family: vazir;
+    src: url("./font/Vazir.ttf");
+}
+
 body {
+    font-family: vazir;
     margin: auto;
     overflow: hidden;
     background: url("./images/body-bg.jpg");

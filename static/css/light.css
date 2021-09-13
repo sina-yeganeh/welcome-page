@@ -1,0 +1,65 @@
+/* Light mode */
+@media (prefers-color-scheme: light) {
+	body {
+		/* font-family: vazir; */
+		font-family: iransans;
+		margin: auto;
+		overflow: hidden;
+		background: url("../images/body-bg.jpg");
+		background-size: cover;
+		display: block;
+		width: fit-content;
+		justify-content: center;
+	}
+
+	.content {
+		padding: 32vh 0;
+	}
+
+	.welcome-card {
+		width: 33vw;
+		height: 30vh;
+		background-color: #add8e6;
+		opacity: 0.95;
+		border-radius: 10px;
+	}
+
+	.welcome {
+		width: fit-content;
+		margin: 0 auto;
+		color: transparent;
+		background: url("../images/gold-bg.jpg");
+		background-size: cover;
+		background-clip: text;
+		-webkit-background-clip: text;
+		text-align: center;
+		padding: 2.5vh 0;
+	}
+
+	.title {
+		font-size: 1.2vw;
+	}
+
+	.description {
+		font-size: 1vw;
+	}
+
+	.login {
+		outline: none;
+		/* font-family: vazir; */
+		font-family: iransans;
+		border: none;
+		border-radius: 25px;
+		width: 18vw;
+		height: 2.2vw;
+		font-size: 1vw;
+		background: deepskyblue;
+		cursor: pointer;
+		color: white;
+		transition: 0.7s;
+	}
+
+	.login:hover {
+		background: rgb(1, 146, 194);
+	}
+}
